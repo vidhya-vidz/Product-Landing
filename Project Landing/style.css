@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+     position: fixed;
+     right: 0;
+     top: 0;
+     z-index: 1000;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 33px 9%;
+     background: transparent;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+.navlist{
+    display:flex;
+}
+.navlist a{
+    color:black;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+.navlist a:hover{
+    border-bottom: 2px solid black;
+}
+#menu-icon{
+    color:black;
+    font-size: 30px;
+    z-index: 10001;
+    cursor:pointer;
+    display: none;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #d3d3d3 0%, #c0c0c0 28.53%, #808080 75.52%);
+    position:relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+section{
+    padding: 0 19%;
+}
+.hero-text h5{
+    font-size: 24px;
+    font-weight: 400;
+    color:black;
+    margin-bottom: 40px;
+}
+.hero-text h1{
+    font-family: 'Courgette', cursive;
+    font-size: 90px;
+    line-height: 1;
+    color: black;
+    margin: 0 0 45px;
+}
+.hero-text p{
+    color: black;
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 40px;
+}
+.hero-img img{
+    width: 700px;
+    height:auto;
+}
+.hero-text a{
+    display: inline-block;
+    color: black;
+    background:  gray;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight:500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+}
+.hero-text a:hover{
+    background: transparent;
+    border: 1px solid darkgray;
+    transform: translateX(8px);
+
+}
+.hero-text a.ctaa{
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+.hero-text a.ctaa i{
+    vertical-align: middle;
+    margin-right: 5px;
+}
